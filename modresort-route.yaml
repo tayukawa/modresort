@@ -8,6 +8,7 @@ spec:
   port:
     targetPort: 9080
   subdomain: ""
+  path: /resorts
   to:
     kind: Service
     name: modresort-service
